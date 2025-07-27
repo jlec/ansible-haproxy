@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "test-kitchen"
+gem "test-kitchen", ">= 2.5.2"
 gem "kitchen-ansible"
-gem "kitchen-vagrant"
+gem "kitchen-vagrant", ">= 1.5.1"
 gem "serverspec"
